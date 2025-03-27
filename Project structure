@@ -1,0 +1,32 @@
+credit-card-fraud-detection/
+│
+├── **data/**
+│   ├── raw/creditcard.csv          # Original dataset
+│   └── processed/                  # Cleaned & preprocessed data
+│       ├── train.csv
+│       └── test.csv
+│
+├── **notebooks/**
+│   ├── 1_eda_class_imbalance.ipynb  # Exploratory Data Analysis
+│   ├── 2_preprocessing.ipynb        # Feature scaling & balancing
+│   └── 3_model_training.ipynb       # Model development
+│
+├── **src/**
+│   ├── preprocess.py                # Data cleaning functions
+│   ├── train_model.py               # Model training script
+│   └── evaluate.py                  # Performance metrics
+│
+├── **models/**
+│   ├── fraud_detector.pkl           # Saved model
+│   ├── roc_curve.png                # Evaluation plots
+│   └── metrics.json                 # Precision, Recall, F1
+│
+├── **reports/**
+│   ├── figures/                     # Visualizations
+│   │   ├── feature_importance.png
+│   │   └── confusion_matrix.png
+│   └── report.md                    # Final analysis
+│
+├── **requirements.txt**             # Dependencies
+├── **README.md**                    # Project overview
+└── **.gitignore**                   # Ignore files
